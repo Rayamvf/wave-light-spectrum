@@ -78,3 +78,6 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 2. Compile the project:
    ```bash
    g++ main.cpp -o wave -lraylib -lopengl32 -lgdi32 -lwinmm
+   ## 📷 Preview
+
+![Wave Simulation Preview](preview.gif)
