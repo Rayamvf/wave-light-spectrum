@@ -1,3 +1,8 @@
+![C++](https://img.shields.io/badge/language-C++-blue.svg)
+![Raylib](https://img.shields.io/badge/library-Raylib-green.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
+
 # 🌈 Wave – Light Spectrum Simulation
 
 An interactive physics simulation built with **C++** and **Raylib** that visualizes damped wave impulses, generates real-time audio synthesis, and maps frequency to the visible light spectrum.
