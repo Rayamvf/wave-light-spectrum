@@ -3,27 +3,27 @@
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
 
-# 🌈 Wave – Light Spectrum Simulation
+# Wave – Light Spectrum Simulation
 
 An interactive physics simulation built with **C++** and **Raylib** that visualizes damped wave impulses, generates real-time audio synthesis, and maps frequency to the visible light spectrum.
 
 ---
 
-## 🔬 Project Overview
+## Project Overview
 
 This project simulates light as a wave using harmonic oscillation and exponential damping.  
 When the user clicks, a new wave impulse is generated:
 
-- 🌊 Animated sine wave visualization  
-- 🎵 Real-time audio synthesis  
-- 🌈 Frequency → Wavelength conversion  
-- 🎨 Visible light spectrum color mapping  
+- Animated sine wave visualization  
+- Real-time audio synthesis  
+- Frequency → Wavelength conversion  
+- Visible light spectrum color mapping  
 
 The simulation connects mathematics, physics, and graphics programming in real time.
 
 ---
 
-## ⚙️ Physics Background
+## Physics Background
 
 The wavelength is calculated using the formula:
 
@@ -38,7 +38,7 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 
 ---
 
-## 🧠 Features
+## Features
 
 - Damped harmonic wave simulation
 - Exponential amplitude decay
@@ -49,7 +49,7 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - C++
 - Raylib
@@ -59,7 +59,7 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action | Function |
 |--------|----------|
@@ -67,7 +67,7 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 
 ---
 
-## 📊 Technical Highlights
+## Technical Highlights
 
 - Custom impulse structure using `std::vector`
 - Exponential decay modeling
@@ -77,12 +77,12 @@ The calculated wavelength is converted to nanometers and mapped to a visible col
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Install Raylib
 2. Compile the project:
    ```bash
    g++ main.cpp -o wave -lraylib -lopengl32 -lgdi32 -lwinmm
-   ## 📷 Preview
+   ## Preview
 
 ![Wave Simulation Preview](preview.gif)
